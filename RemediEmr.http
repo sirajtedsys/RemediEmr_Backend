@@ -1,0 +1,6 @@
+@RemediEmr_HostAddress = http://localhost:5171
+
+GET {{RemediEmr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
