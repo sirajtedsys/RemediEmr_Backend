@@ -46,8 +46,11 @@
         public string? PVitaminD { get; set; }
         public string? PNotes { get; set; }
         public string? PBldGrpId { get; set; }
+<<<<<<< HEAD
 
         public string? currentmedication { get; set; }
         public VitalsExtra? Ve { get; set; }
+=======
+>>>>>>> origin/main
     }
 }

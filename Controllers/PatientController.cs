@@ -16,6 +16,7 @@ namespace RemediEmr.Controllers
     {
 
         private readonly PatientRepositry comrep;
+<<<<<<< HEAD
         private readonly SelfRegistrationRepositry slrep;
         private readonly JwtHandler jwtHandler;
 
@@ -24,6 +25,14 @@ namespace RemediEmr.Controllers
             comrep = _comrep;
             jwtHandler = _jwthand;
             slrep = _slrep;
+=======
+        private readonly JwtHandler jwtHandler;
+
+        public PatientController(PatientRepositry _comrep, JwtHandler _jwthand)
+        {
+            comrep = _comrep;
+            jwtHandler = _jwthand;
+>>>>>>> origin/main
         }
 
         [HttpPost("InsertCampPatientMasterAsync")]
@@ -605,6 +614,7 @@ namespace RemediEmr.Controllers
 
         }
 
+<<<<<<< HEAD
 
         #region Selfregistration
         [HttpPost("UpdateDailyTokenDetails")]
@@ -705,5 +715,7 @@ namespace RemediEmr.Controllers
     
     
     
+=======
+>>>>>>> origin/main
     }
 }

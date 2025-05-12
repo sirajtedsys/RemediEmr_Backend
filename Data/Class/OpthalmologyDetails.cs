@@ -121,12 +121,16 @@
             public string? OsPriphery { get; set; }
             public string? Diagnosis { get; set; }
             public string? TreatmentPlan { get; set; }
+<<<<<<< HEAD
         public string? P_ORTHO_CCOD { get; set; }
         public string? P_ORTHO_SCOS { get; set; }
         public string? P_PREV_OD_ADD { get; set; }
         public string? P_PREV_OS_ADD { get; set; }
         public string? P_REFRA_OD_NOTES { get; set; }
         public List<ICDselection> IcdList { get; set; }
+=======
+            public List<ICDselection> IcdList { get; set; }
+>>>>>>> origin/main
             public int RetVal { get; set; }
         
 

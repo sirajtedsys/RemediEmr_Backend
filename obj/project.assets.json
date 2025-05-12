@@ -21,6 +21,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -73,6 +74,8 @@
           }
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.AspNetCore.JsonPatch/8.0.11": {
         "type": "package",
         "dependencies": {
@@ -111,6 +114,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.WebSockets/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -129,6 +133,8 @@
           }
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -306,6 +312,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -325,6 +332,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.Extensions.Logging/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -365,7 +374,11 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Options/8.0.2": {
+=======
+      "Microsoft.Extensions.Options/8.0.0": {
+>>>>>>> origin/main
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -496,6 +509,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -513,6 +527,8 @@
           }
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -646,6 +662,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
       "System.Buffers/4.6.0": {
         "type": "package",
         "compile": {
@@ -655,6 +672,8 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+=======
+>>>>>>> origin/main
       "System.Configuration.ConfigurationManager/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -789,6 +808,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Net.WebSockets.WebSocketProtocol/5.1.0": {
         "type": "package",
         "compile": {
@@ -805,6 +825,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> origin/main
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -845,6 +867,7 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+<<<<<<< HEAD
       },
       "System.Text.Encodings.Web/8.0.0": {
         "type": "package",
@@ -867,6 +890,8 @@
             "rid": "browser"
           }
         }
+=======
+>>>>>>> origin/main
       }
     }
   },
@@ -886,6 +911,7 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
       "sha512": "39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
       "type": "package",
@@ -925,6 +951,8 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
+=======
+>>>>>>> origin/main
     "Microsoft.AspNetCore.JsonPatch/8.0.11": {
       "sha512": "l1tFnQm2LtFE3M9YRM/bdwtxxCV50Y5jnN0LjliQH1sqvWsN46++Uu3QCJL9IdOweFvXSf3Shi7DI/Vc1jkdKA==",
       "type": "package",
@@ -959,6 +987,7 @@
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.WebSockets/2.3.0": {
       "sha512": "+T4zpnVPkIjvvkyhTH3WBJlTfqmTBRozvnMudAUDvcb4e+NrWf52q8BXh52rkCrBgX6Cudf6F/UhZwTowyBtKg==",
       "type": "package",
@@ -972,6 +1001,8 @@
         "microsoft.aspnetcore.websockets.nuspec"
       ]
     },
+=======
+>>>>>>> origin/main
     "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
@@ -1487,6 +1518,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
       "type": "package",
@@ -1515,6 +1547,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> origin/main
     "Microsoft.Extensions.Logging/8.0.0": {
       "sha512": "tvRkov9tAJ3xP51LCv3FJ2zINmv1P8Hi8lhhtcKGqM+ImiTCC84uOPEI4z8Cdq2C3o9e+Aa0Gw0rmrsJD77W+w==",
       "type": "package",
@@ -1620,10 +1654,17 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Options/8.0.2": {
       "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "type": "package",
       "path": "microsoft.extensions.options/8.0.2",
+=======
+    "Microsoft.Extensions.Options/8.0.0": {
+      "sha512": "JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+      "type": "package",
+      "path": "microsoft.extensions.options/8.0.0",
+>>>>>>> origin/main
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1662,7 +1703,11 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+<<<<<<< HEAD
         "microsoft.extensions.options.8.0.2.nupkg.sha512",
+=======
+        "microsoft.extensions.options.8.0.0.nupkg.sha512",
+>>>>>>> origin/main
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1835,6 +1880,7 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers/2.3.0": {
       "sha512": "/M0wVg6tJUOHutWD3BMOUVZAioJVXe0tCpFiovzv0T9T12TBf4MnaHP0efO8TCr1a6O9RZgQeZ9Gdark8L9XdA==",
       "type": "package",
@@ -1848,6 +1894,8 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
+=======
+>>>>>>> origin/main
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -2031,6 +2079,7 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+<<<<<<< HEAD
     "System.Buffers/4.6.0": {
       "sha512": "lN6tZi7Q46zFzAbRYXTIvfXcyvQQgxnY7Xm6C6xQ9784dEL1amjM6S6Iw4ZpsvesAKnRVsM4scrDQaDqSClkjA==",
       "type": "package",
@@ -2051,6 +2100,8 @@
         "system.buffers.nuspec"
       ]
     },
+=======
+>>>>>>> origin/main
     "System.Configuration.ConfigurationManager/8.0.0": {
       "sha512": "JlYi9XVvIREURRUlGMr1F6vOFLk7YSY4p1vHo4kX3tQ0AGrjqlRWHDi66ImHhy6qwXBG3BJ6Y1QlYQ+Qz6Xgww==",
       "type": "package",
@@ -2253,6 +2304,7 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
+<<<<<<< HEAD
     "System.Net.WebSockets.WebSocketProtocol/5.1.0": {
       "sha512": "cVTT/Zw4JuUeX8H0tdWii0OMHsA5MY2PaFYOq/Hstw0jk479jZ+f8baCicWFNzJlCPWAe0uoNCELoB5eNmaMqA==",
       "type": "package",
@@ -2276,6 +2328,8 @@
         "system.net.websockets.websocketprotocol.nuspec"
       ]
     },
+=======
+>>>>>>> origin/main
     "System.Security.Cryptography.Pkcs/8.0.0": {
       "sha512": "ULmp3xoOwNYjOYp4JZ2NK/6NdTgiN1GQXzVVN1njQ7LOZ0d0B9vyMnhyqbIi9Qw4JXj1JgCsitkTShboHRx7Eg==",
       "type": "package",
@@ -2348,6 +2402,7 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+<<<<<<< HEAD
     },
     "System.Text.Encodings.Web/8.0.0": {
       "sha512": "yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
@@ -2383,13 +2438,18 @@
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
+=======
+>>>>>>> origin/main
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.11",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.11",
+<<<<<<< HEAD
       "Microsoft.AspNetCore.WebSockets >= 2.3.0",
+=======
+>>>>>>> origin/main
       "Oracle.EntityFrameworkCore >= 8.23.60",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -2400,11 +2460,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\WORKING\\siraj\\RemediEmr\\remedi emr api\\RemediEmr\\RemediEmr\\RemediEmr.csproj",
       "projectName": "RemediEmr",
       "projectPath": "D:\\WORKING\\siraj\\RemediEmr\\remedi emr api\\RemediEmr\\RemediEmr\\RemediEmr.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\WORKING\\siraj\\RemediEmr\\remedi emr api\\RemediEmr\\RemediEmr\\obj\\",
+=======
+      "projectUniqueName": "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\RemediEmr.csproj",
+      "projectName": "RemediEmr",
+      "projectPath": "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\RemediEmr.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\obj\\",
+>>>>>>> origin/main
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2447,10 +2515,13 @@
             "target": "Package",
             "version": "[8.0.11, )"
           },
+<<<<<<< HEAD
           "Microsoft.AspNetCore.WebSockets": {
             "target": "Package",
             "version": "[2.3.0, )"
           },
+=======
+>>>>>>> origin/main
           "Oracle.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.23.60, )"

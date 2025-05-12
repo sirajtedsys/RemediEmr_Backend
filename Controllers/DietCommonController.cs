@@ -477,6 +477,7 @@ namespace RemediEmr.Controllers
             }
 
         }
+<<<<<<< HEAD
 
 
         [HttpGet("GetDietchartDetails")]
@@ -631,6 +632,8 @@ namespace RemediEmr.Controllers
 
 
 
+=======
+>>>>>>> origin/main
     }
 
 

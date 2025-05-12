@@ -55,6 +55,7 @@ D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Debug\net8.0\refint\RemediEm
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Debug\net8.0\RemediEmr.pdb
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Debug\net8.0\RemediEmr.genruntimeconfig.cache
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Debug\net8.0\ref\RemediEmr.dll
+<<<<<<< HEAD
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Debug\net8.0\RemediEmr.sourcelink.json
 D:\Mano\Work\RemediEMRLatest\RemediEmr\bin\Debug\net8.0\appsettings.Development.json
 D:\Mano\Work\RemediEMRLatest\RemediEmr\bin\Debug\net8.0\appsettings.json
@@ -177,3 +178,5 @@ D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\RemediEmr\obj\Debug\net8.0\R
 D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\RemediEmr\obj\Debug\net8.0\ref\RemediEmr.dll
 D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\RemediEmr\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\RemediEmr\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+=======
+>>>>>>> origin/main

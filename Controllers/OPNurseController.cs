@@ -24,6 +24,7 @@ namespace RemediEmr.Controllers
             _crep = crep;
         }
 
+<<<<<<< HEAD
         [HttpGet("GetVitalsComplaint")]
         public async Task<dynamic> GetVitalsComplaint()
         {
@@ -74,6 +75,8 @@ namespace RemediEmr.Controllers
        
 
 
+=======
+>>>>>>> origin/main
 
         [HttpGet("GetAllLevelID")]
         public async Task<dynamic> GetAllLevelID()
@@ -271,6 +274,7 @@ namespace RemediEmr.Controllers
 
         }
 
+<<<<<<< HEAD
         [HttpGet("GetPreviousMedication")]
         public async Task<dynamic> GetPreviousMedication(string Emrdocid)
         {
@@ -318,6 +322,8 @@ namespace RemediEmr.Controllers
 
         }
 
+=======
+>>>>>>> origin/main
 
         [HttpPost("ExecuteSpOnlineVitalStatusUpd")]
         public async Task<dynamic> ExecuteSpOnlineVitalStatusUpd(Vitals vt)
@@ -1048,6 +1054,7 @@ namespace RemediEmr.Controllers
 
         }
 
+<<<<<<< HEAD
 
         [HttpGet("GetLensPowerDetails")]
         public async Task<dynamic> GetLensPowerDetails(string? term)
@@ -1240,5 +1247,7 @@ namespace RemediEmr.Controllers
 
         }
 
+=======
+>>>>>>> origin/main
     }
 }

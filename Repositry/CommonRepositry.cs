@@ -18,14 +18,20 @@ namespace RemediEmr.Repositry
         private readonly JwtHandler jwthand;
 
         private readonly IConfiguration _configuration;
+<<<<<<< HEAD
         private readonly string _con;
+=======
+>>>>>>> origin/main
 
         public CommonRepositry(AppDbContext dbContext, JwtHandler _jwthand, IConfiguration configuration)
         {
             _DbContext = dbContext;
             jwthand = _jwthand;
             _configuration = configuration;
+<<<<<<< HEAD
             _con = _DbContext.Database.GetConnectionString();
+=======
+>>>>>>> origin/main
         }
 
 
@@ -211,8 +217,12 @@ namespace RemediEmr.Repositry
                                   emp.EMP_OFFL_NAME,
                                   emp.EMP_CONT_PER_PHONE,
                                   doc.LEVEL_ID,
+<<<<<<< HEAD
                                   doc.BRANCH_ID,
                                   doc.DOCT_ID
+=======
+                                  doc.BRANCH_ID
+>>>>>>> origin/main
                               }).ToList();
                 return result;
 
@@ -483,6 +493,7 @@ namespace RemediEmr.Repositry
         }
 
 
+<<<<<<< HEAD
         public async  Task<dynamic> GetActiveDisplayLocations()
         {
             var locations = new List<dynamic>();
@@ -521,6 +532,8 @@ namespace RemediEmr.Repositry
 
           
         }
+=======
+>>>>>>> origin/main
 
 
 

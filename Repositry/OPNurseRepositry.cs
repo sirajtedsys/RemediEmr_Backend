@@ -20,13 +20,17 @@ namespace RemediEmr.Repositry
         protected readonly IConfiguration _configuration;
 
         private readonly JwtHandler jwthand;
+<<<<<<< HEAD
         private readonly string con;
+=======
+>>>>>>> origin/main
 
         public OPNurseRepositry(AppDbContext dbContext, JwtHandler _jwthand, IConfiguration configuration)
         {
             _DbContext = dbContext;
             jwthand = _jwthand;
             _configuration = configuration;
+<<<<<<< HEAD
             con = _DbContext.Database.GetConnectionString();
         }
 
@@ -62,6 +66,10 @@ namespace RemediEmr.Repositry
             }
 
         }
+=======
+        }
+
+>>>>>>> origin/main
 
 
 
@@ -327,6 +335,7 @@ namespace RemediEmr.Repositry
 
                     // Execute the command asynchronously
                     await command.ExecuteNonQueryAsync();
+<<<<<<< HEAD
                     await connection.CloseAsync();
 
                     var vasl =  UpdateCurrentMedication(parameters.EdocId, parameters.currentmedication, parameters.PatiId);
@@ -342,6 +351,10 @@ namespace RemediEmr.Repositry
 
                         return new { Status = 505, Message = "Error while insertion." };
                     }
+=======
+
+                    return new { Status = 200, Message = "inserted successfully." };
+>>>>>>> origin/main
                 }
             }
             catch (Exception ex)
@@ -359,6 +372,7 @@ namespace RemediEmr.Repositry
             }
         }
 
+<<<<<<< HEAD
         public int UpdateCurrentMedication(string emrDocId, string currentMed, string patientId)
         {
             try
@@ -432,6 +446,11 @@ namespace RemediEmr.Repositry
                 return null;
             }
         }
+=======
+
+
+
+>>>>>>> origin/main
         // Helper method to add parameters to the command
         private void AddParameter(OracleCommand command, string name, OracleDbType dbType, object value)
         {
@@ -1179,7 +1198,11 @@ namespace RemediEmr.Repositry
             :P_OD_PUPIL_DIAL, :P_OS_IRIS, :P_OS_PUPIL, :P_OS_LENS, :P_OS_PUPIL_DIAL, :P_OD_NERVE, 
             :P_OD_VITREOUS, :P_OD_RETINA, :P_OD_MACULA, :P_OD_PRIPHERY, :P_OS_NERVE, 
             :P_OS_VITREOUS, :P_OS_RETINA, :P_OS_MACULA, :P_OS_PRIPHERY, :P_DIAGNOSIS, 
+<<<<<<< HEAD
             :P_TREATMENT_PLAN, :P_ORTHO_CCOD, :P_ORTHO_SCOS, :P_PREV_OD_ADD , :P_PREV_OS_ADD, :P_REFRA_OD_NOTES, :RETVAL); END;";
+=======
+            :P_TREATMENT_PLAN, :RETVAL); END;";
+>>>>>>> origin/main
 
                 // Add the input parameters
                 var parameters = new List<OracleParameter>
@@ -1312,6 +1335,7 @@ namespace RemediEmr.Repositry
             new OracleParameter("P_OS_PRIPHERY", OracleDbType.Varchar2) { Value = ophthalmologyParameters.OsPriphery  ?? (object)DBNull.Value},
             new OracleParameter("P_DIAGNOSIS", OracleDbType.Varchar2) { Value = ophthalmologyParameters.Diagnosis  ?? (object)DBNull.Value},
             new OracleParameter("P_TREATMENT_PLAN", OracleDbType.Varchar2) { Value = ophthalmologyParameters.TreatmentPlan  ?? (object)DBNull.Value},   //19
+<<<<<<< HEAD
 
             
             new OracleParameter("P_ORTHO_CCOD", OracleDbType.Varchar2) { Value = ophthalmologyParameters.P_ORTHO_CCOD  ?? (object)DBNull.Value},
@@ -1319,6 +1343,8 @@ namespace RemediEmr.Repositry
             new OracleParameter("P_PREV_OD_ADD", OracleDbType.Varchar2) { Value = ophthalmologyParameters.P_PREV_OD_ADD  ?? (object)DBNull.Value},
             new OracleParameter("P_PREV_OS_ADD", OracleDbType.Varchar2) { Value = ophthalmologyParameters.P_REFRA_OD_NOTES  ?? (object)DBNull.Value},
             new OracleParameter("P_REFRA_OD_NOTES", OracleDbType.Varchar2) { Value = ophthalmologyParameters.P_ORTHO_CCOD  ?? (object)DBNull.Value},
+=======
+>>>>>>> origin/main
                    //new OracleParameter("RETVAL", OracleDbType.Decimal) { Direction = ParameterDirection.Output }
                    retvalParameter
       
@@ -1681,6 +1707,7 @@ namespace RemediEmr.Repositry
         }
 
 
+<<<<<<< HEAD
         public async Task<dynamic?> GetLensPowerDetails(string term)
         {
             if (string.IsNullOrWhiteSpace(term))
@@ -2015,6 +2042,35 @@ namespace RemediEmr.Repositry
                 throw new Exception($"Error executing query: {ex.Message}");
             }
         }
+=======
+
+        //SELECT
+        //      ICD.ICD_ID,
+        //      ICD.ICD_CODE_ID AS ICODE_ID,
+        //      ICD.ICD_CODE_DTLS_ID AS ICODE_DTLS_ID,
+        //      D.ICODE_DTLS_NAME,
+        //      D.ICODE_DTLS_CODE,
+        //      ICD.ICD_RMRKS,
+        //      ICD.MRD_UPDATE_STS,
+        //      ICD.MRD_UPDATE_USR,
+        //      ICD.MRD_UPDATE_DATE
+        //  FROM
+
+        //      UCHEMR.EMR_VISIT_ICD_DTLS ICD
+
+        //  LEFT JOIN
+
+        //      UCHMASTER.ICD_CODE_DTLS D
+
+        //  ON
+        //      ICD.ICD_CODE_ID = D.ICODE_ID
+
+        //      AND ICD.ICD_CODE_DTLS_ID = D.ICODE_DTLS_ID
+
+        //  WHERE
+        //      EMRDOCID = :EMRDOCID"
+
+>>>>>>> origin/main
 
     }
 }

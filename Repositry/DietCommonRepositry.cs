@@ -910,6 +910,7 @@ namespace RemediEmr.Repositry
 
         }
 
+<<<<<<< HEAD
         public async Task<dynamic> GetDietchartDetails(string edocId)
         {
             try
@@ -1073,6 +1074,274 @@ namespace RemediEmr.Repositry
             }
         }
 
+=======
+
+
+
+        //public async Task<dynamic> SaveSubjGlobalAsync(SubjGlobal dentalAssessment, UserTocken ut)
+        //{
+        //	try
+        //	{
+
+        //		// SQL to call the stored procedure
+        //		var sql7 = @"BEGIN UCHEMR.DIET_BASIC_ENTRY(
+        //          :P_EMR_DOC_ID,
+        //	:P_HEIGHT,
+        //	:P_ASW,
+        //	:P_IBW,
+        //	:P_MAC,
+        //	:P_TSF,
+        //	:P_BMI,
+        //	:P_BP,
+        //	:P_DIAGNOSIS,
+        //	:P_GOOD,
+        //	:P_FOOD_50,
+        //	:P_FOOD_25,
+        //	:P_ANOREXIA,
+        //	:P_PALLOR,
+        //	:P_PALLOR_CMNT,
+        //	:P_EDEMA,
+        //	:P_EDEMA_CMNT,
+        //	:P_DISEASE,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //		var parameters7 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_HEIGHT", OracleDbType.Varchar2) { Value = dentalAssessment.P_HEIGHT ?? (object)DBNull.Value },
+        //	new OracleParameter("P_ASW", OracleDbType.Varchar2) { Value = dentalAssessment.P_ASW ?? (object)DBNull.Value },
+        //	new OracleParameter("P_IBW", OracleDbType.Varchar2) { Value = dentalAssessment.P_IBW ?? (object)DBNull.Value },
+        //	new OracleParameter("P_MAC", OracleDbType.Varchar2) { Value = dentalAssessment.P_MAC ?? (object)DBNull.Value },
+        //	new OracleParameter("P_TSF", OracleDbType.Varchar2) { Value = dentalAssessment.P_TSF ?? (object)DBNull.Value },
+        //	new OracleParameter("P_BMI", OracleDbType.Varchar2) { Value = dentalAssessment.P_BMI ?? (object)DBNull.Value },
+        //	new OracleParameter("P_BP", OracleDbType.Varchar2) { Value = dentalAssessment.P_BP ?? (object)DBNull.Value },
+        //	new OracleParameter("P_GOOD", OracleDbType.Varchar2) { Value = dentalAssessment.P_GOOD ?? (object)DBNull.Value },
+        //	new OracleParameter("P_FOOD_50", OracleDbType.Varchar2) { Value = dentalAssessment.P_FOOD_50 ?? (object)DBNull.Value },
+        //	new OracleParameter("P_FOOD_25", OracleDbType.Varchar2) { Value = dentalAssessment.P_FOOD_25 ?? "0" },
+        //	new OracleParameter("P_ANOREXIA", OracleDbType.Varchar2) { Value = dentalAssessment.P_ANOREXIA ?? "0" },
+        //	new OracleParameter("P_PALLOR", OracleDbType.Varchar2) { Value = dentalAssessment.P_PALLOR ?? "0" },
+        //	new OracleParameter("P_PALLOR_CMNT", OracleDbType.Varchar2) { Value = dentalAssessment.P_PALLOR_CMNT ?? (object)DBNull.Value },
+        //	new OracleParameter("P_EDEMA", OracleDbType.Varchar2) { Value = dentalAssessment.P_EDEMA ?? (object)DBNull.Value },
+        //	new OracleParameter("P_EDEMA_CMNT", OracleDbType.Varchar2) { Value = dentalAssessment.P_EDEMA_CMNT ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DISEASE", OracleDbType.Varchar2) { Value = dentalAssessment.P_DISEASE ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value },
+        //};
+
+
+        //	var sql1 = @"BEGIN UCHEMR.SP_DIET_FUNCTIONAL_CAPACITY(
+        //          :P_EMR_DOC_ID,
+        //	:P_DYSFUNCTION_STATUS,
+        //	:P_DURATION_TYPE,
+        //	:P_DURATION,
+        //	:P_DURATION_COMMENTS,
+        //	:P_DYSFUNCTION_TYPE,
+        //	:P_DYSFUNCTION_WEEKS,
+        //	:P_DYSFUNCTION_COMMENTS,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //var parameters1 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DYSFUNCTION_STATUS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DYSFUNCTION_STATUS },
+        //	new OracleParameter("P_DURATION_TYPE", OracleDbType.Varchar2) { Value = dentalAssessment.P_DURATION_TYPE},
+        //	new OracleParameter("P_DURATION", OracleDbType.Varchar2) { Value = dentalAssessment.P_DURATION ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DURATION_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DURATION_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DYSFUNCTION_TYPE", OracleDbType.Varchar2) { Value = dentalAssessment.P_DYSFUNCTION_TYPE  },
+        //	new OracleParameter("P_DYSFUNCTION_WEEKS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DYSFUNCTION_WEEKS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DYSFUNCTION_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DYSFUNCTION_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value }
+
+        //};
+        //	var sql2 = @"BEGIN UCHEMR.SP_DIET_DIETARY_INTAKE(
+        //          :P_EMR_DOC_ID,
+        //	:P_DIETARY_STATUS,
+        //	:P_DURATION_TYPE,
+        //	:P_DURATION,
+        //	:P_DURATION_COMMENTS,
+        //	:P_DIETARY_TYPE,
+        //	:P_DIETARY_COMMENTS,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //	var parameters2 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DIETARY_STATUS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DIETARY_STATUS },
+        //	new OracleParameter("P_DURATION_TYPE", OracleDbType.Varchar2) { Value = dentalAssessment.P_DURATION_TYPE},
+        //	new OracleParameter("P_DURATION", OracleDbType.Varchar2) { Value = dentalAssessment.P_DURATION ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DURATION_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DURATION_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DIETARY_TYPE", OracleDbType.Varchar2) { Value = dentalAssessment.P_DIETARY_TYPE  },
+        //	new OracleParameter("P_DIETARY_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_DIETARY_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value }
+
+        //};
+        //var sql3 = @"BEGIN UCHEMR.SP_DIET_GASTRO_SYMPTOMS(
+        //          :P_EMR_DOC_ID,
+        //	:P_STATUS,
+        //	:P_NAVSEA,
+        //	:P_VOMITTING,
+        //	:P_DIARRHEA,
+        //	:P_ANOREXIA,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //		var parameters3 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_STATUS", OracleDbType.Varchar2) { Value = dentalAssessment.P_STATUS },
+        //	new OracleParameter("P_NAVSEA", OracleDbType.Varchar2) { Value = dentalAssessment.P_NAVSEA},
+        //	new OracleParameter("P_VOMITTING", OracleDbType.Varchar2) { Value = dentalAssessment.P_VOMITTING ?? (object)DBNull.Value },
+        //	new OracleParameter("P_DIARRHEA", OracleDbType.Varchar2) { Value = dentalAssessment.P_DIARRHEA ?? (object)DBNull.Value },
+        //	new OracleParameter("P_ANOREXIA", OracleDbType.Varchar2) { Value = dentalAssessment.P_ANOREXIA  },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value }
+
+        //};
+
+        //var sql4 = @"BEGIN UCHEMR.SP_DIET_PHYSICAL_SUBJECTIVE(
+        //          :P_EMR_DOC_ID,
+        //	:P_FAT_LOSS,
+        //	:P_FAT_LOSE_COMMENTS,
+        //	:P_MUSCLE_WAST,
+        //	:P_COMMENTS,
+        //	:P_CREATED_BY,
+        //	:P_ASSESSMENT,
+        //	:P_ASSESSMENT_RATE,
+        //	:P_ASSESSMENT_COMMENTS,
+        //	:P_ANKLE_EDEMA,
+        //	:P_ANKLE_COMMENTS,
+        //	:P_SACRAL_EDEMA,
+        //	:P_SACRAL_COMMENTS,
+        //	:P_ASCITES,
+        //	:P_ASCITES_COMMENTS,
+        //	:P_NUTRITION_DIAGNOSIS,
+        //	:P_BIOCHEMICAL_VALUES,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //		var parameters4 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_FAT_LOSS", OracleDbType.Varchar2) { Value = dentalAssessment.P_FAT_LOSS },
+        //	new OracleParameter("P_FAT_LOSE_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_FAT_LOSE_COMMENTS ?? (object)DBNull.Value},
+        //	new OracleParameter("P_MUSCLE_WAST", OracleDbType.Varchar2) { Value = dentalAssessment.P_MUSCLE_WAST },
+        //	new OracleParameter("P_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY  },
+        //	new OracleParameter("P_ASSESSMENT", OracleDbType.Varchar2) { Value = dentalAssessment.P_ASSESSMENT ?? (object)DBNull.Value },
+        //	new OracleParameter("P_ASSESSMENT_RATE", OracleDbType.Varchar2) { Value = dentalAssessment.P_ASSESSMENT_RATE  },
+        //	new OracleParameter("P_ASSESSMENT_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_ASSESSMENT_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_ANKLE_EDEMA", OracleDbType.Varchar2) { Value = dentalAssessment.P_ANKLE_EDEMA  },
+        //	new OracleParameter("P_ANKLE_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_ANKLE_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_SACRAL_EDEMA", OracleDbType.Varchar2) { Value = dentalAssessment.P_SACRAL_EDEMA },
+        //	new OracleParameter("P_SACRAL_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_SACRAL_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_ASCITES", OracleDbType.Varchar2) { Value = dentalAssessment.P_ASCITES },
+        //	new OracleParameter("P_ASCITES_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_ASCITES_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_NUTRITION_DIAGNOSIS", OracleDbType.Varchar2) { Value = dentalAssessment.P_NUTRITION_DIAGNOSIS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_BIOCHEMICAL_VALUES", OracleDbType.Varchar2) { Value = dentalAssessment.P_BIOCHEMICAL_VALUES ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value },
+
+        //};
+
+        //var sql5 = @"BEGIN UCHEMR.SP_DIET_DISEASE(
+        //          :P_EMR_DOC_ID,
+        //	:P_PRIMARY_DIAGNOSIS,
+        //	:P_COMMENTS,
+        //	:P_METABOLIC_DEMAND,
+        //	:P_METABOLIC_COMMENTS,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //var parameters5 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_PRIMARY_DIAGNOSIS", OracleDbType.Varchar2) { Value = dentalAssessment.P_PRIMARY_DIAGNOSIS },
+        //	new OracleParameter("P_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_COMMENTS},
+        //	new OracleParameter("P_METABOLIC_DEMAND", OracleDbType.Varchar2) { Value = dentalAssessment.P_METABOLIC_DEMAND ?? (object)DBNull.Value },
+        //	new OracleParameter("P_METABOLIC_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_METABOLIC_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value }
+
+        //};
+        //var sql6 = @"BEGIN UCHEMR.SP_WEIGHT_CHANGE(
+        //          :P_EMR_DOC_ID,
+        //	: P_LOSS_STATUS,
+        //	: P_LOSS_KG,
+        //	: P_LOSS_PERCENT,
+        //	: P_LOSS_COMMENTS,
+        //	: P_CHANGE_STATUS,
+        //	: P_CHANGE_TYPE,
+        //	: P_CHANGE_KG,
+        //	: P_CHANGE_PERCENT,
+        //	: P_CHANGE_COMMENTS,
+        //	:P_CREATED_BY
+        //      ); END;";
+
+        //		// Oracle parameters
+        //		var parameters6 = new List<OracleParameter>
+        //{
+        //	new OracleParameter("P_EMR_DOC_ID", OracleDbType.Varchar2) { Value = dentalAssessment.P_EMR_DOC_ID ?? (object)DBNull.Value },
+        //	new OracleParameter("P_LOSS_STATUS", OracleDbType.Varchar2) { Value = dentalAssessment.P_LOSS_STATUS },
+        //	new OracleParameter("P_LOSS_KG", OracleDbType.Varchar2) { Value = dentalAssessment.P_LOSS_KG ?? (object)DBNull.Value},
+        //	new OracleParameter("P_LOSS_PERCENT", OracleDbType.Varchar2) { Value = dentalAssessment.P_LOSS_PERCENT ?? (object)DBNull.Value },
+        //	new OracleParameter("P_LOSS_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_LOSS_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CHANGE_STATUS", OracleDbType.Varchar2) { Value = dentalAssessment.P_CHANGE_STATUS },
+        //	new OracleParameter("P_CHANGE_TYPE", OracleDbType.Varchar2) { Value = dentalAssessment.P_CHANGE_TYPE},
+        //	new OracleParameter("P_CHANGE_KG", OracleDbType.Varchar2) { Value = dentalAssessment.P_CHANGE_KG ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CHANGE_COMMENTS", OracleDbType.Varchar2) { Value = dentalAssessment.P_CHANGE_COMMENTS ?? (object)DBNull.Value },
+        //	new OracleParameter("P_CREATED_BY", OracleDbType.Varchar2) { Value = dentalAssessment.P_CREATED_BY ?? (object)DBNull.Value }
+
+        //};
+        //		var sql = "";
+        //		var parameters="";
+
+        //		for (int i = 1;i==7;i++)
+        //		{
+        //			using (var cmd = _DbContext.Database.GetDbConnection().CreateCommand())
+        //			{
+        //				string ss = sql + @i;
+        //				cmd.CommandText = ss;
+        //				cmd.CommandType = CommandType.Text;
+        //				string pr = parameters + @i;
+        //				cmd.Parameters.AddRange(pr.ToArray());
+
+        //				// Open connection if not already open
+        //				if (cmd.Connection.State != ConnectionState.Open)
+        //					await cmd.Connection.OpenAsync();
+
+        //				// Execute the procedure
+        //				await cmd.ExecuteNonQueryAsync();
+
+        //				if(i==7)
+        //				{
+        //					return 1;
+        //				}
+
+        //				// Retrieve the return value
+        //				//int retval = int.Parse(parameters.First(p => p.ParameterName == "RETVAL").Value.ToString());
+        //				//return new { Status = retval == 1 ? 200 : 400, Message = retval == 1 ? "Operation successful." : "Operation failed." };
+        //			}
+
+
+
+
+        //		}
+        //		return 0;
+
+
+        //		// Execute the procedure
+        //	}
+        //	catch (Exception ex)
+        //	{
+        //		return new { Status = 500, Message = $"Error: {ex.Message}" };
+        //	}
+        //}
+>>>>>>> origin/main
 
     }
 }

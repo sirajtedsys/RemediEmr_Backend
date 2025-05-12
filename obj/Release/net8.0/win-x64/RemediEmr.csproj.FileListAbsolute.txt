@@ -51,4 +51,7 @@ D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\refin
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.pdb
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.genruntimeconfig.cache
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\ref\RemediEmr.dll
+<<<<<<< HEAD
 D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.sourcelink.json
+=======
+>>>>>>> origin/main

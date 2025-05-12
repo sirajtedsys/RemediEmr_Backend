@@ -45,6 +45,7 @@ namespace RemediEmr.Controllers
          
         }
 
+<<<<<<< HEAD
 
         [HttpGet("GetLocations")]
         public async Task<dynamic> GetActiveDisplayLocations()
@@ -56,6 +57,9 @@ namespace RemediEmr.Controllers
         }
 
 
+=======
+        
+>>>>>>> origin/main
 
         [HttpGet("GetAllUserBranches")]
         public async Task<dynamic> GetAllUserBranches()

@@ -10,7 +10,10 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.11",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.11",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.WebSockets": "2.3.0",
+=======
+>>>>>>> origin/main
           "Oracle.EntityFrameworkCore": "8.23.60",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -29,6 +32,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.3.0",
@@ -48,6 +52,8 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.AspNetCore.JsonPatch/8.0.11": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -73,6 +79,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.WebSockets/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Extensions": "2.3.0",
@@ -80,6 +87,8 @@
           "System.Net.WebSockets.WebSocketProtocol": "5.1.0"
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.EntityFrameworkCore/8.0.3": {
         "dependencies": {
@@ -127,7 +136,11 @@
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+<<<<<<< HEAD
           "Microsoft.Extensions.Options": "8.0.2",
+=======
+          "Microsoft.Extensions.Options": "8.0.0",
+>>>>>>> origin/main
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
@@ -142,16 +155,23 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {},
+<<<<<<< HEAD
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.Extensions.Logging/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+<<<<<<< HEAD
           "Microsoft.Extensions.Options": "8.0.2"
+=======
+          "Microsoft.Extensions.Options": "8.0.0"
+>>>>>>> origin/main
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
@@ -159,6 +179,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Options/8.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -169,6 +190,12 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.224.6711"
           }
+=======
+      "Microsoft.Extensions.Options/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+>>>>>>> origin/main
         }
       },
       "Microsoft.Extensions.Primitives/8.0.0": {},
@@ -237,12 +264,15 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers/2.3.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0",
           "System.Buffers": "4.6.0"
         }
       },
+=======
+>>>>>>> origin/main
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -334,7 +364,10 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Buffers/4.6.0": {},
+=======
+>>>>>>> origin/main
       "System.Configuration.ConfigurationManager/8.0.0": {
         "dependencies": {
           "System.Diagnostics.EventLog": "8.0.0",
@@ -408,6 +441,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Net.WebSockets.WebSocketProtocol/5.1.0": {
         "runtime": {
           "lib/net6.0/System.Net.WebSockets.WebSocketProtocol.dll": {
@@ -416,6 +450,8 @@
           }
         }
       },
+=======
+>>>>>>> origin/main
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "dependencies": {
           "System.Formats.Asn1": "8.0.1"
@@ -428,8 +464,12 @@
             "fileVersion": "8.0.23.53103"
           }
         }
+<<<<<<< HEAD
       },
       "System.Text.Encodings.Web/8.0.0": {}
+=======
+      }
+>>>>>>> origin/main
     }
   },
   "libraries": {
@@ -445,6 +485,7 @@
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.11",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
       "type": "package",
       "serviceable": true,
@@ -466,6 +507,8 @@
       "path": "microsoft.aspnetcore.http.features/2.3.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512"
     },
+=======
+>>>>>>> origin/main
     "Microsoft.AspNetCore.JsonPatch/8.0.11": {
       "type": "package",
       "serviceable": true,
@@ -480,6 +523,7 @@
       "path": "microsoft.aspnetcore.mvc.newtonsoftjson/8.0.11",
       "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.8.0.11.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.WebSockets/2.3.0": {
       "type": "package",
       "serviceable": true,
@@ -487,6 +531,8 @@
       "path": "microsoft.aspnetcore.websockets/2.3.0",
       "hashPath": "microsoft.aspnetcore.websockets.2.3.0.nupkg.sha512"
     },
+=======
+>>>>>>> origin/main
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -564,6 +610,7 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -571,6 +618,8 @@
       "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512"
     },
+=======
+>>>>>>> origin/main
     "Microsoft.Extensions.Logging/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -585,12 +634,21 @@
       "path": "microsoft.extensions.logging.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Options/8.0.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "path": "microsoft.extensions.options/8.0.2",
       "hashPath": "microsoft.extensions.options.8.0.2.nupkg.sha512"
+=======
+    "Microsoft.Extensions.Options/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+      "path": "microsoft.extensions.options/8.0.0",
+      "hashPath": "microsoft.extensions.options.8.0.0.nupkg.sha512"
+>>>>>>> origin/main
     },
     "Microsoft.Extensions.Primitives/8.0.0": {
       "type": "package",
@@ -641,6 +699,7 @@
       "path": "microsoft.identitymodel.tokens/7.1.2",
       "hashPath": "microsoft.identitymodel.tokens.7.1.2.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers/2.3.0": {
       "type": "package",
       "serviceable": true,
@@ -648,6 +707,8 @@
       "path": "microsoft.net.http.headers/2.3.0",
       "hashPath": "microsoft.net.http.headers.2.3.0.nupkg.sha512"
     },
+=======
+>>>>>>> origin/main
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
       "serviceable": true,
@@ -711,6 +772,7 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "System.Buffers/4.6.0": {
       "type": "package",
       "serviceable": true,
@@ -718,6 +780,8 @@
       "path": "system.buffers/4.6.0",
       "hashPath": "system.buffers.4.6.0.nupkg.sha512"
     },
+=======
+>>>>>>> origin/main
     "System.Configuration.ConfigurationManager/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -760,6 +824,7 @@
       "path": "system.identitymodel.tokens.jwt/7.1.2",
       "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
     },
+<<<<<<< HEAD
     "System.Net.WebSockets.WebSocketProtocol/5.1.0": {
       "type": "package",
       "serviceable": true,
@@ -767,6 +832,8 @@
       "path": "system.net.websockets.websocketprotocol/5.1.0",
       "hashPath": "system.net.websockets.websocketprotocol.5.1.0.nupkg.sha512"
     },
+=======
+>>>>>>> origin/main
     "System.Security.Cryptography.Pkcs/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -780,6 +847,7 @@
       "sha512": "sha512-+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
       "path": "system.security.cryptography.protecteddata/8.0.0",
       "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+<<<<<<< HEAD
     },
     "System.Text.Encodings.Web/8.0.0": {
       "type": "package",
@@ -787,6 +855,8 @@
       "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
       "path": "system.text.encodings.web/8.0.0",
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+=======
+>>>>>>> origin/main
     }
   }
 }

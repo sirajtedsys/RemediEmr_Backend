@@ -8,7 +8,11 @@ namespace RemediEmr.Data.DbModel
         public string? PATI_ID { get; set; }
         public string? EMR_DOC_ID { get; set; }
         public string? CREATED_USER { get; set; }
+<<<<<<< HEAD
         public DateTime? CREATED_DATE { get; set; }
+=======
+        public DateTime CREATED_DATE { get; set; }
+>>>>>>> origin/main
         public string? DIET_SPEC { get; set; }
         public string? FOOD_PREF { get; set; }
         public string? TOTAL_FLUID { get; set; }

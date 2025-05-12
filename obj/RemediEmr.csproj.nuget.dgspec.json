@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\WORKING\\siraj\\RemediEmr\\remedi emr api\\RemediEmr\\RemediEmr\\RemediEmr.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\WORKING\\siraj\\RemediEmr\\remedi emr api\\RemediEmr\\RemediEmr\\RemediEmr.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\WORKING\\siraj\\RemediEmr\\remedi emr api\\RemediEmr\\RemediEmr\\obj\\",
+=======
+    "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\RemediEmr.csproj": {}
+  },
+  "projects": {
+    "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\RemediEmr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\RemediEmr.csproj",
+        "projectName": "RemediEmr",
+        "projectPath": "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\RemediEmr.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\WORKING\\siraj\\RemediEmr\\New folder\\RemediEmr\\obj\\",
+>>>>>>> origin/main
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,10 +68,13 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
+<<<<<<< HEAD
             "Microsoft.AspNetCore.WebSockets": {
               "target": "Package",
               "version": "[2.3.0, )"
             },
+=======
+>>>>>>> origin/main
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.23.60, )"

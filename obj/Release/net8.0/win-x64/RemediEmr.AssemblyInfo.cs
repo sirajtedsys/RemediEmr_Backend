@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemediEmr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd9d5c2582647b790d6f99cda30ebc056e7dc4dc")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> origin/main
 [assembly: System.Reflection.AssemblyProductAttribute("RemediEmr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemediEmr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

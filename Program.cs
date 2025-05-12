@@ -6,10 +6,13 @@ using RemediEmr.Repositry;
 using Newtonsoft.Json.Serialization;
 using System;
 using System.Text;
+<<<<<<< HEAD
 using RemediEmr.Data.Class;
 using System.Net.WebSockets;
 using System.Text.Json;
 
+=======
+>>>>>>> origin/main
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
@@ -58,6 +61,7 @@ builder.Services.AddScoped<CommonRepositry>();
 builder.Services.AddScoped<PatientRepositry>();
 builder.Services.AddScoped<OPNurseRepositry>();
 builder.Services.AddScoped<DietCommonRepository>();
+<<<<<<< HEAD
 builder.Services.AddScoped<PhysioRepository>();
 builder.Services.AddScoped<PrescriptionRepositry>();
 builder.Services.AddScoped<JwtService.JwtHandler>();
@@ -205,6 +209,11 @@ async Task<List<dynamic>> GetTokenDetails(string deviceId)
 }
 
 
+=======
+builder.Services.AddScoped<JwtService.JwtHandler>();
+
+var app = builder.Build();
+>>>>>>> origin/main
 
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
