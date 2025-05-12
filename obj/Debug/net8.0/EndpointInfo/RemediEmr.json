@@ -1,0 +1,4345 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "RemediEmr",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Common/CheckLogin": {
+      "post": {
+        "tags": [
+          "Common"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetSectionId": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetAllUserBranches": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/CheckLogin1": {
+      "post": {
+        "tags": [
+          "Common"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetMenuDetails": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetUserDet": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetAppMenuAsync": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetPatientDetailsAsync": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "parameters": [
+          {
+            "name": "patiId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pEdocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetDentalAssessmentAsync": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "parameters": [
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/InsertDentalAssessment": {
+      "post": {
+        "tags": [
+          "Common"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DentalAssessmentModel"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DentalAssessmentModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DentalAssessmentModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DentalAssessmentModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/GetPatientListDatewiseAsync": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sctId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cprNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "visitType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "groupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "listType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "levelId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Common/SaveSpecialConsultation": {
+      "get": {
+        "tags": [
+          "Common"
+        ],
+        "parameters": [
+          {
+            "name": "patiId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "specialConsult",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pTreatmentRemarksNew",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Complaint/SaveComplaint": {
+      "post": {
+        "tags": [
+          "Complaint"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Complaint"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Complaint"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Complaint"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Complaint"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Complaint/GetComplaintDetails": {
+      "get": {
+        "tags": [
+          "Complaint"
+        ],
+        "parameters": [
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/CheckLogin1": {
+      "post": {
+        "tags": [
+          "DietCommon"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetAllUserBranches": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetUserDet1": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetAppMenuAsync": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetPatientDetailsAsync": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "parameters": [
+          {
+            "name": "patiId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pEdocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetPatientListDatewiseAsync": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sctId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cprNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "visitType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "groupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "listType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "levelId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetMenuDetails": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/SaveDietChart": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "parameters": [
+          {
+            "name": "patiId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dietspec",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "foodpref",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "totfluid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "earlymorn",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "breakfast",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "elevenpm",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lunch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fourpm",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sevenpm",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "bedtime",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "specialinstr",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "createduser",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "eight",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "presillness",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pheight",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pweight",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/SaveBodyComposition": {
+      "post": {
+        "tags": [
+          "DietCommon"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BODY_COMPO_FEMALE_CL"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BODY_COMPO_FEMALE_CL"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BODY_COMPO_FEMALE_CL"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BODY_COMPO_FEMALE_CL"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/SaveSubjGlobal": {
+      "post": {
+        "tags": [
+          "DietCommon"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SubjGlobal"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SubjGlobal"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SubjGlobal"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SubjGlobal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetDietchartDetails": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "parameters": [
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetBodyCompositionDetails": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "parameters": [
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DietCommon/GetSubjGlobalDetails": {
+      "get": {
+        "tags": [
+          "DietCommon"
+        ],
+        "parameters": [
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetAllLevelID": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetUserDet": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetOpnursePatiListAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sctId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "cprNo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "visitType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "groupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "listType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "levelId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetPAtientVitals": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Emrdocid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/ExecuteSpOnlineVitalStatusUpd": {
+      "post": {
+        "tags": [
+          "OPNurse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Vitals"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Vitals"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Vitals"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Vitals"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetOpNursePatiLRListAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sctId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "cprNo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "visitType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "groupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "listType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "levelId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/ExecuteOpNursePatiLrsListAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sctId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "cprNo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "visitType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "groupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "listType",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "levelId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetEmrDocIdBeforesubmitsAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Emrdocid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/SaveAudiologyAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "emrDocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hist",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "notes",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetAudiologyByEmrDocIdAndCurrentDateAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Emrdocid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/UpdateVitalsStatusAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Emrdocid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetActiveLabTakenStatusCountAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetAllRoom": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/InsertOrUpdateEmrLabTakenAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "emrDocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "eltsId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "notes",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/SaveOphthalmologyDetails": {
+      "post": {
+        "tags": [
+          "OPNurse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OpthalmologyDetails"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OpthalmologyDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OpthalmologyDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OpthalmologyDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/SelectExistingPatientOptholomology": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Emrdocid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetAllIcds": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Emrdocid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetDDevices": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "Rid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetOnlineICDSelectionAsync": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "typ",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetLensPowerDetails": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OPNurse/GetAccessDetails": {
+      "get": {
+        "tags": [
+          "OPNurse"
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/InsertCampPatientMasterAsync": {
+      "post": {
+        "tags": [
+          "Patient"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Patreg"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Patreg"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Patreg"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Patreg"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/VerifyMobileNumber": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "parameters": [
+          {
+            "name": "mob",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/LookupLocationAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/LookupPatientTypeAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/GetDefaultCampCustAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/LookupNationalityAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/GetDefaultPatientTypeAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/GetLocationMandatorySettingAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/GetDefaultNationalityAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/LookupSalutationAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/GetCampPatientAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "parameters": [
+          {
+            "name": "branchCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "patientTypeId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Patient/LookupCustomerAsync": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "parameters": [
+          {
+            "name": "pId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "branchCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/CheckLogin1": {
+      "post": {
+        "tags": [
+          "Physio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetAllUserBranches": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetSectionId": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetUserDet1": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetAppMenuAsync": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetPatientDetailsAsync": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "parameters": [
+          {
+            "name": "patiId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pEdocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetPatientListDatewiseAsync": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sctId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cprNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "visitType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "groupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "listType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "levelId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetMenuDetails": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/GetInitialEvalDetails": {
+      "get": {
+        "tags": [
+          "Physio"
+        ],
+        "parameters": [
+          {
+            "name": "edocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Physio/SaveInitialEvaluation": {
+      "post": {
+        "tags": [
+          "Physio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InitialEvaluation"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InitialEvaluation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InitialEvaluation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InitialEvaluation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/GetOnlineMedicineAndGeneric": {
+      "get": {
+        "tags": [
+          "Prescription"
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "claimId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/GetDosagesByEmployeeAsync": {
+      "get": {
+        "tags": [
+          "Prescription"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/GetRoutesByEmployeeAsync": {
+      "get": {
+        "tags": [
+          "Prescription"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/GetFrequencyByEmployeeAsync": {
+      "get": {
+        "tags": [
+          "Prescription"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/GetOnlineGenericNamesAsync": {
+      "get": {
+        "tags": [
+          "Prescription"
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "branchId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "claimId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/ExecuteOnlineDocMediIns": {
+      "post": {
+        "tags": [
+          "Prescription"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Prescription"
+                }
+              }
+            },
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Prescription"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Prescription"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Prescription"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prescription/GetMedicinePlanForPatient": {
+      "get": {
+        "tags": [
+          "Prescription"
+        ],
+        "parameters": [
+          {
+            "name": "patId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "emrDocId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BODY_COMPO_FEMALE_CL": {
+        "type": "object",
+        "properties": {
+          "p_EMR_DOC_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PATI_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SAVE_TIME": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "p_WEIGHT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BODY_FAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_VISCERAL_FAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RESTING_METABOLISM": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SKELETAL_MUSCLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SKELETAL_MUSCLE_ARMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SKELETAL_MUSCLE_TRUNK": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SKELETAL_MUSCLE_LEGS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SUBCUT_FAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SUBCUT_ARMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SUBCUT_TRUNK": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SUBCUT_LEG": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BMI": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BODY_AGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_HEIGHT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_WEIGHT1": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CREATED_USER": {
+            "type": "string",
+            "nullable": true
+          },
+          "createD_DATE": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Complaint": {
+        "type": "object",
+        "properties": {
+          "p_EMR_DOC_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PRESC_ADV": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_INVEST_ADV": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RADIO_ADV": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CREATED_USER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_TYPE": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "systeM_EXAM": {
+            "type": "string",
+            "nullable": true
+          },
+          "physicaL_EXAM": {
+            "type": "string",
+            "nullable": true
+          },
+          "systemic": {
+            "type": "string",
+            "nullable": true
+          },
+          "localex": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiid": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_mh_Other": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FAMILY_MED_HISTORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DOCID": {
+            "type": "string",
+            "nullable": true
+          },
+          "edocid": {
+            "type": "string",
+            "nullable": true
+          },
+          "docid": {
+            "type": "string",
+            "nullable": true
+          },
+          "complnt": {
+            "type": "string",
+            "nullable": true
+          },
+          "hstry": {
+            "type": "string",
+            "nullable": true
+          },
+          "docT_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "prsnT_ILLNESS": {
+            "type": "string",
+            "nullable": true
+          },
+          "immun": {
+            "type": "string",
+            "nullable": true
+          },
+          "genrmrks": {
+            "type": "string",
+            "nullable": true
+          },
+          "i_TREATMENT_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_TREATMENT_REMARKS_NEW": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_NOTES": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DOCT_NOTES": {
+            "type": "string",
+            "nullable": true
+          },
+          "edoC_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OPERTN_NOTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "useR_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "createusr": {
+            "type": "string",
+            "nullable": true
+          },
+          "icdsL_NO": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "icddignosis": {
+            "type": "string",
+            "nullable": true
+          },
+          "icD_DIGNOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "pati": {
+            "type": "string",
+            "nullable": true
+          },
+          "branchcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "currenT_MEDICATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "patI_ID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DateOnly": {
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "month": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "day": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dayOfWeek": {
+            "$ref": "#/components/schemas/DayOfWeek"
+          },
+          "dayOfYear": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "dayNumber": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DayOfWeek": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "DentalAssessmentModel": {
+        "type": "object",
+        "properties": {
+          "complaints": {
+            "type": "string",
+            "nullable": true
+          },
+          "emrDocId": {
+            "type": "string",
+            "nullable": true
+          },
+          "intraOralExamination": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PAST_HISTORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MEDICAL_HISTORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_EXTRA_ORAL_EXAMINATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_INTERPRETATIONS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BLOOD_INVESTIGATIONS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIAGNOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PROCEDURE_PLANNED": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PROCEDURE_GIVEN": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SEL_SURFACE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SEL_LOCATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SEL_AMOUNT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DOSE_TYPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOCATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AMOUNT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CONSENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PATIENT_EDUCATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FOLLOW_UP_DATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FOLLOW_UP": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MATERIAL_USED_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MATERIAL_USED": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_TOOTH_TREATED_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_TOOTH_TREATED": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LA_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CLINICAL_FINIDINGS": {
+            "type": "string",
+            "nullable": true
+          },
+          "retval": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ICDselection": {
+        "type": "object",
+        "properties": {
+          "icdId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "icdSlNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "icdCodeId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "icdCodeDtlsId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "emrDocId": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiId": {
+            "type": "string",
+            "nullable": true
+          },
+          "mrdUpdateSts": {
+            "type": "string",
+            "nullable": true
+          },
+          "mrdUpdateUsr": {
+            "type": "string",
+            "nullable": true
+          },
+          "mrdUpdateDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InitialEvaluation": {
+        "type": "object",
+        "properties": {
+          "p_PATI_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_EMR_DOC_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PAIN_SCREENING": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PAIN_ASSESSMENT_NUM": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PAIN_ASSESSMENT_FACE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOCATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DURATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FREQUENCY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FREQUENCY_OTHER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHARACTER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHARACTER_OTHER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_INCREASE_WITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DECREASE_WITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_GAIT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ABNORMAL_GAIT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SPECIAL_TESTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RANGE_NECK": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RANGE_RIGHT_UE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RANGE_LEFT_UE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RANGE_RIGHT_LE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RANGE_LEFT_LE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RANGE_LIMITATIONS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_NECK": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_RIGHT_UE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_LEFT_UE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_RIGHT_LE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_LEFT_LE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_LIMITATIONS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CREATED_USER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PRESENT_HISTORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PAST_HISTORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SOCIAL_HISTORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIABETES_MELLITUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHOLESTROL": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_HYPERTENSION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CARDIC": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CANCER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_RESPIRATORY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ANY_METAL_IMPLANT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OSTEOPOROSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MEDICAL_HISTORY_OTHERS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MH_OTHER_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CURRENT_MEDICATIONS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIAGNOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FUNCTIONAL_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_TERM": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_TERM_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_HEP_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_EROGONOMICS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_INSTRUCTIONS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_FOLLOWUP": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_AIMS_EVALUATIN_DATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CURRENT_OCCUPATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CONSULTANT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHIEF_COMPLAINTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_MMT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FIM_SCORE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BALANCE_SCALE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_COORDINATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OTHER_MEASURES": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OTHER_GAIT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PHYSIO": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PHYSIO_INITIAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PARASTHESIA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SENSATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PROPRIOCEPTION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_TONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_REFLEXES": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OTHER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OTHER_REMARKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_NO_ABNORMALITY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LEG_LENGTH_DECREPENCY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_KYPHOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SCOLIOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LORDOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_GENUVARUM": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PROTRUDED_SHOULDER": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FORWARD_HEAD": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_OTHER_POSTURE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Login": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OpthalmologyDetails": {
+        "type": "object",
+        "properties": {
+          "emrDocId": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "retinoOdSph": {
+            "type": "string",
+            "nullable": true
+          },
+          "retiniOdDycl": {
+            "type": "string",
+            "nullable": true
+          },
+          "retinoOdAxis": {
+            "type": "string",
+            "nullable": true
+          },
+          "retinoOdMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "retinoOsSph": {
+            "type": "string",
+            "nullable": true
+          },
+          "retiniOsDycl": {
+            "type": "string",
+            "nullable": true
+          },
+          "retinoOsAxis": {
+            "type": "string",
+            "nullable": true
+          },
+          "retinoOsMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOdSph": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOdDycl": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOdAxis": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOdAdd": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOdMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOsSph": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOsDycl": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOsAxis": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOsAdd": {
+            "type": "string",
+            "nullable": true
+          },
+          "refraOsOptom": {
+            "type": "string",
+            "nullable": true
+          },
+          "odUcdva": {
+            "type": "string",
+            "nullable": true
+          },
+          "odBcdva": {
+            "type": "string",
+            "nullable": true
+          },
+          "odUcnva": {
+            "type": "string",
+            "nullable": true
+          },
+          "odBcnva": {
+            "type": "string",
+            "nullable": true
+          },
+          "osUcdva": {
+            "type": "string",
+            "nullable": true
+          },
+          "osBcdva": {
+            "type": "string",
+            "nullable": true
+          },
+          "osUcnva": {
+            "type": "string",
+            "nullable": true
+          },
+          "osBcnva": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdSph": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdDcyl": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdAxis": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdDv": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdNv": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdType": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOdDuration": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOsSph": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOsDcyl": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOsAxis": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOsDv": {
+            "type": "string",
+            "nullable": true
+          },
+          "prevOsNv": {
+            "type": "string",
+            "nullable": true
+          },
+          "iopMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "ipoOd": {
+            "type": "string",
+            "nullable": true
+          },
+          "iopOs": {
+            "type": "string",
+            "nullable": true
+          },
+          "pachyMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "pachyOd": {
+            "type": "string",
+            "nullable": true
+          },
+          "pachyOs": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorOdTest": {
+            "type": "string",
+            "nullable": true
+          },
+          "cocolorOdResult": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorOsTest": {
+            "type": "string",
+            "nullable": true
+          },
+          "cocolorOsResult": {
+            "type": "string",
+            "nullable": true
+          },
+          "sensoryTest": {
+            "type": "string",
+            "nullable": true
+          },
+          "sensoryCorrection": {
+            "type": "string",
+            "nullable": true
+          },
+          "sensoryDist": {
+            "type": "string",
+            "nullable": true
+          },
+          "sensoryNear": {
+            "type": "string",
+            "nullable": true
+          },
+          "exopBase": {
+            "type": "string",
+            "nullable": true
+          },
+          "exopOd": {
+            "type": "string",
+            "nullable": true
+          },
+          "exopOs": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork1": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork2": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork3": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork4": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork5": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork6": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork7": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEomwork8": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork1": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork2": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork3": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork4": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork5": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork6": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork7": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEomwork8": {
+            "type": "string",
+            "nullable": true
+          },
+          "orthoSc": {
+            "type": "string",
+            "nullable": true
+          },
+          "orthoCc": {
+            "type": "string",
+            "nullable": true
+          },
+          "alignWithout": {
+            "type": "string",
+            "nullable": true
+          },
+          "alignWith": {
+            "type": "string",
+            "nullable": true
+          },
+          "odEyelid": {
+            "type": "string",
+            "nullable": true
+          },
+          "odConju": {
+            "type": "string",
+            "nullable": true
+          },
+          "odSclera": {
+            "type": "string",
+            "nullable": true
+          },
+          "odCornea": {
+            "type": "string",
+            "nullable": true
+          },
+          "odChamber": {
+            "type": "string",
+            "nullable": true
+          },
+          "osEyelid": {
+            "type": "string",
+            "nullable": true
+          },
+          "osConju": {
+            "type": "string",
+            "nullable": true
+          },
+          "osSclera": {
+            "type": "string",
+            "nullable": true
+          },
+          "osCornea": {
+            "type": "string",
+            "nullable": true
+          },
+          "osChamber": {
+            "type": "string",
+            "nullable": true
+          },
+          "odGonio1": {
+            "type": "string",
+            "nullable": true
+          },
+          "odGonio2": {
+            "type": "string",
+            "nullable": true
+          },
+          "odGonio3": {
+            "type": "string",
+            "nullable": true
+          },
+          "odGonio4": {
+            "type": "string",
+            "nullable": true
+          },
+          "odGonio5": {
+            "type": "string",
+            "nullable": true
+          },
+          "osGonio1": {
+            "type": "string",
+            "nullable": true
+          },
+          "osGonio2": {
+            "type": "string",
+            "nullable": true
+          },
+          "osGonio3": {
+            "type": "string",
+            "nullable": true
+          },
+          "osGonio4": {
+            "type": "string",
+            "nullable": true
+          },
+          "osGonio5": {
+            "type": "string",
+            "nullable": true
+          },
+          "odIris": {
+            "type": "string",
+            "nullable": true
+          },
+          "odPupil": {
+            "type": "string",
+            "nullable": true
+          },
+          "odLens": {
+            "type": "string",
+            "nullable": true
+          },
+          "odPupilDial": {
+            "type": "string",
+            "nullable": true
+          },
+          "osIris": {
+            "type": "string",
+            "nullable": true
+          },
+          "osPupil": {
+            "type": "string",
+            "nullable": true
+          },
+          "osLens": {
+            "type": "string",
+            "nullable": true
+          },
+          "osPupilDial": {
+            "type": "string",
+            "nullable": true
+          },
+          "odNerve": {
+            "type": "string",
+            "nullable": true
+          },
+          "odVitreous": {
+            "type": "string",
+            "nullable": true
+          },
+          "odRetina": {
+            "type": "string",
+            "nullable": true
+          },
+          "odMacula": {
+            "type": "string",
+            "nullable": true
+          },
+          "odPriphery": {
+            "type": "string",
+            "nullable": true
+          },
+          "osNerve": {
+            "type": "string",
+            "nullable": true
+          },
+          "osVitreous": {
+            "type": "string",
+            "nullable": true
+          },
+          "osRetina": {
+            "type": "string",
+            "nullable": true
+          },
+          "osMacula": {
+            "type": "string",
+            "nullable": true
+          },
+          "osPriphery": {
+            "type": "string",
+            "nullable": true
+          },
+          "diagnosis": {
+            "type": "string",
+            "nullable": true
+          },
+          "treatmentPlan": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ORTHO_CCOD": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ORTHO_SCOS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PREV_OD_ADD": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PREV_OS_ADD": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_REFRA_OD_NOTES": {
+            "type": "string",
+            "nullable": true
+          },
+          "icdList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ICDselection"
+            },
+            "nullable": true
+          },
+          "retVal": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Patreg": {
+        "type": "object",
+        "properties": {
+          "saltId": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiFirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiBirthDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiMobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiPlaceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOCATION_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiPayType": {
+            "type": "string",
+            "nullable": true
+          },
+          "cprId": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCardId": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCardNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "pCustId": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiPresentAdd1": {
+            "type": "string",
+            "nullable": true
+          },
+          "patiPermanentAdd1": {
+            "type": "string",
+            "nullable": true
+          },
+          "branchId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Prescription": {
+        "type": "object",
+        "properties": {
+          "medPslno": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "edocId": {
+            "type": "string",
+            "nullable": true
+          },
+          "docId": {
+            "type": "string",
+            "nullable": true
+          },
+          "medId": {
+            "type": "string",
+            "nullable": true
+          },
+          "freqId": {
+            "type": "string",
+            "nullable": true
+          },
+          "medRouteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "dur": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "rmrks": {
+            "type": "string",
+            "nullable": true
+          },
+          "bf": {
+            "type": "string",
+            "nullable": true
+          },
+          "af": {
+            "type": "string",
+            "nullable": true
+          },
+          "patI": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUsr": {
+            "type": "string",
+            "nullable": true
+          },
+          "dosId": {
+            "type": "string",
+            "nullable": true
+          },
+          "claimId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "claimPercent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "discPercent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "aprvlTypeId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "readyToBill": {
+            "type": "string",
+            "nullable": true
+          },
+          "qtyTotal": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pSaleBrkQty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pSaleBrkUnit": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doNotBill": {
+            "type": "string",
+            "nullable": true
+          },
+          "pTestDose": {
+            "type": "string",
+            "nullable": true
+          },
+          "obs": {
+            "type": "string",
+            "nullable": true
+          },
+          "totUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "pdUnitId": {
+            "type": "string",
+            "nullable": true
+          },
+          "pDosageVal": {
+            "type": "string",
+            "nullable": true
+          },
+          "retVal": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SubjGlobal": {
+        "type": "object",
+        "properties": {
+          "p_EMR_DOC_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_HEIGHT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ASW": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_IBW": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MAC": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_TSF": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BMI": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BP": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIAGNOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_GOOD": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FOOD_50": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FOOD_25": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ANOREXIA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PALLOR": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PALLOR_CMNT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_EDEMA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_EDEMA_CMNT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DISEASE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CREATED_BY": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DYSFUNCTION_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DURATION_TYPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DURATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DURATION_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DYSFUNCTION_TYPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DYSFUNCTION_WEEKS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DYSFUNCTION_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIETARY_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIETARY_TYPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIETARY_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_NAVSEA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_VOMITTING": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_DIARRHEA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FAT_LOSS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_FAT_LOSE_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_MUSCLE_WAST": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ASSESSMENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ASSESSMENT_RATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ASSESSMENT_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ANKLE_EDEMA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ANKLE_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SACRAL_EDEMA": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_SACRAL_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ASCITES": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_ASCITES_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_NUTRITION_DIAGNOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_BIOCHEMICAL_VALUES": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_PRIMARY_DIAGNOSIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_METABOLIC_DEMAND": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_METABOLIC_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOSS_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOSS_KG": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOSS_PERCENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_LOSS_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHANGE_STATUS": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHANGE_TYPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHANGE_KG": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHANGE_PERCENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "p_CHANGE_COMMENTS": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Vitals": {
+        "type": "object",
+        "properties": {
+          "patiId": {
+            "type": "string",
+            "nullable": true
+          },
+          "visitId": {
+            "type": "string",
+            "nullable": true
+          },
+          "doctId": {
+            "type": "string",
+            "nullable": true
+          },
+          "edocId": {
+            "type": "string",
+            "nullable": true
+          },
+          "empId": {
+            "type": "string",
+            "nullable": true
+          },
+          "height1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "weight1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "temp1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pulse1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "maxBp": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "minBp": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "rr1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "unit1": {
+            "type": "string",
+            "nullable": true
+          },
+          "hCircum": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "wCircum": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bWeight": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pGrbs": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxBpLeft": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "minBpLeft": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pTempUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "pSpo2": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pNurseNote": {
+            "type": "string",
+            "nullable": true
+          },
+          "pNurseRemarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "pPainAssessment": {
+            "type": "string",
+            "nullable": true
+          },
+          "pLocation": {
+            "type": "string",
+            "nullable": true
+          },
+          "pRemarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "pAssessmentDistrus": {
+            "type": "string",
+            "nullable": true
+          },
+          "pBg": {
+            "type": "string",
+            "nullable": true
+          },
+          "pFsh": {
+            "type": "string",
+            "nullable": true
+          },
+          "pSupplemental": {
+            "type": "string",
+            "nullable": true
+          },
+          "pLevelOfConsciousness": {
+            "type": "string",
+            "nullable": true
+          },
+          "pDuration": {
+            "type": "string",
+            "nullable": true
+          },
+          "pPainRadiating": {
+            "type": "string",
+            "nullable": true
+          },
+          "pOnsetPain": {
+            "type": "string",
+            "nullable": true
+          },
+          "pClinicTriage": {
+            "type": "string",
+            "nullable": true
+          },
+          "pPriority": {
+            "type": "string",
+            "nullable": true
+          },
+          "pBpDown": {
+            "type": "string",
+            "nullable": true
+          },
+          "pBpUp": {
+            "type": "string",
+            "nullable": true
+          },
+          "pHealthEducation": {
+            "type": "string",
+            "nullable": true
+          },
+          "pUrineAcr": {
+            "type": "string",
+            "nullable": true
+          },
+          "pHba1c": {
+            "type": "string",
+            "nullable": true
+          },
+          "pVitaminD": {
+            "type": "string",
+            "nullable": true
+          },
+          "pNotes": {
+            "type": "string",
+            "nullable": true
+          },
+          "pBldGrpId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "$ref": "#/components/schemas/DateOnly"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
