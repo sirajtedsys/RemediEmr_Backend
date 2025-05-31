@@ -1,0 +1,109 @@
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\appsettings.Development.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\appsettings.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.exe
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.deps.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.runtimeconfig.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.pdb
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.OpenApi.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Newtonsoft.Json.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.csproj.AssemblyReference.cache
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.AssemblyInfoInputs.cache
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.AssemblyInfo.cs
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets.build.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets.development.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.RemediEmr.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.build.RemediEmr.props
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.buildMultiTargeting.RemediEmr.props
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.buildTransitive.RemediEmr.props
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets.pack.json
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\scopedcss\bundle\RemediEmr.styles.css
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.csproj.Up2Date
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\refint\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.pdb
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.genruntimeconfig.cache
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\ref\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.sourcelink.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\appsettings.Development.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\appsettings.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.exe
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.deps.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.runtimeconfig.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\RemediEmr.pdb
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.AspNetCore.JsonPatch.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.EntityFrameworkCore.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.Extensions.Options.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Logging.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Microsoft.OpenApi.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Newtonsoft.Json.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Newtonsoft.Json.Bson.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Oracle.EntityFrameworkCore.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Oracle.ManagedDataAccess.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Swashbuckle.AspNetCore.Swagger.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Configuration.ConfigurationManager.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Diagnostics.PerformanceCounter.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.DirectoryServices.Protocols.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Net.WebSockets.WebSocketProtocol.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\bin\Release\net8.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.csproj.AssemblyReference.cache
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.AssemblyInfoInputs.cache
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.AssemblyInfo.cs
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.csproj.CoreCompileInputs.cache
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.MvcApplicationPartsAssemblyInfo.cs
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets.build.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets.development.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.RemediEmr.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.build.RemediEmr.props
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.buildMultiTargeting.RemediEmr.props
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets\msbuild.buildTransitive.RemediEmr.props
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\staticwebassets.pack.json
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\scopedcss\bundle\RemediEmr.styles.css
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.csproj.Up2Date
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\refint\RemediEmr.dll
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.pdb
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\RemediEmr.genruntimeconfig.cache
+D:\WORKING\siraj\RemediEmr\remedi emr api\RemediEmr\New folder\RemediEmr\obj\Release\net8.0\win-x64\ref\RemediEmr.dll

@@ -1,0 +1,1581 @@
+[
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "LoginCheck",
+    "RelativePath": "api/Common/CheckLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "RemediEmr.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "LoginCheck1",
+    "RelativePath": "api/Common/CheckLogin1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "RemediEmr.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetAllUserBranches",
+    "RelativePath": "api/Common/GetAllUserBranches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetAppMenuAsync",
+    "RelativePath": "api/Common/GetAppMenuAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetDentalAssessmentAsync",
+    "RelativePath": "api/Common/GetDentalAssessmentAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetMenuDetails",
+    "RelativePath": "api/Common/GetMenuDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetPatientDetailsAsync",
+    "RelativePath": "api/Common/GetPatientDetailsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patiId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pEdocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetPatientListDatewiseAsync",
+    "RelativePath": "api/Common/GetPatientListDatewiseAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cprNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "visitType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "listType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "levelId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetSectionId",
+    "RelativePath": "api/Common/GetSectionId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "GetUserDet",
+    "RelativePath": "api/Common/GetUserDet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "InsertDentalAssessment",
+    "RelativePath": "api/Common/InsertDentalAssessment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dentalAssessment",
+        "Type": "RemediEmr.Data.Class.DentalAssessmentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.CommonController",
+    "Method": "SaveSpecialConsultation",
+    "RelativePath": "api/Common/SaveSpecialConsultation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patiId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "specialConsult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pTreatmentRemarksNew",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.ComplaintController",
+    "Method": "GetComplaintDetails",
+    "RelativePath": "api/Complaint/GetComplaintDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.ComplaintController",
+    "Method": "SaveComplaint",
+    "RelativePath": "api/Complaint/SaveComplaint",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "b",
+        "Type": "RemediEmr.Data.Class.Complaint",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "LoginCheck",
+    "RelativePath": "api/DietCommon/CheckLogin1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "RemediEmr.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetAllUserBranches",
+    "RelativePath": "api/DietCommon/GetAllUserBranches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetAppMenuAsync",
+    "RelativePath": "api/DietCommon/GetAppMenuAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetBodyCompositionDetails",
+    "RelativePath": "api/DietCommon/GetBodyCompositionDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetDietchartDetails",
+    "RelativePath": "api/DietCommon/GetDietchartDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetMenuDetails",
+    "RelativePath": "api/DietCommon/GetMenuDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetPatientDetailsAsync",
+    "RelativePath": "api/DietCommon/GetPatientDetailsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patiId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pEdocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetPatientListDatewiseAsync",
+    "RelativePath": "api/DietCommon/GetPatientListDatewiseAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cprNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "visitType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "listType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "levelId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetSubjGlobalDetails",
+    "RelativePath": "api/DietCommon/GetSubjGlobalDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "GetUserDet",
+    "RelativePath": "api/DietCommon/GetUserDet1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "SaveBodyComposition",
+    "RelativePath": "api/DietCommon/SaveBodyComposition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "b",
+        "Type": "RemediEmr.Data.Class.BODY_COMPO_FEMALE_CL",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "SaveDietChart",
+    "RelativePath": "api/DietCommon/SaveDietChart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patiId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dietspec",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "foodpref",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totfluid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "earlymorn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "breakfast",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "elevenpm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lunch",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fourpm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sevenpm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "bedtime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "specialinstr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "createduser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "eight",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "presillness",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pheight",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pweight",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.DietCommonController",
+    "Method": "SaveSubjGlobal",
+    "RelativePath": "api/DietCommon/SaveSubjGlobal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "b",
+        "Type": "RemediEmr.Data.Class.SubjGlobal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "ExecuteOpNursePatiLrsListAsync",
+    "RelativePath": "api/OPNurse/ExecuteOpNursePatiLrsListAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cprNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "visitType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "listType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "levelId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "ExecuteSpOnlineVitalStatusUpd",
+    "RelativePath": "api/OPNurse/ExecuteSpOnlineVitalStatusUpd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vt",
+        "Type": "RemediEmr.Data.Class.Vitals",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetAccessDetails",
+    "RelativePath": "api/OPNurse/GetAccessDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "term",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetActiveLabTakenStatusCountAsync",
+    "RelativePath": "api/OPNurse/GetActiveLabTakenStatusCountAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetAllIcds",
+    "RelativePath": "api/OPNurse/GetAllIcds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Emrdocid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetAllLevelID",
+    "RelativePath": "api/OPNurse/GetAllLevelID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetAllRoom",
+    "RelativePath": "api/OPNurse/GetAllRoom",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetAudiologyByEmrDocIdAndCurrentDateAsync",
+    "RelativePath": "api/OPNurse/GetAudiologyByEmrDocIdAndCurrentDateAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Emrdocid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetDDevices",
+    "RelativePath": "api/OPNurse/GetDDevices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Rid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetEmrDocIdBeforesubmitsAsync",
+    "RelativePath": "api/OPNurse/GetEmrDocIdBeforesubmitsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Emrdocid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetLensPowerDetails",
+    "RelativePath": "api/OPNurse/GetLensPowerDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "term",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetOnlineICDSelectionAsync",
+    "RelativePath": "api/OPNurse/GetOnlineICDSelectionAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typ",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetOpnursePatiListAsync",
+    "RelativePath": "api/OPNurse/GetOpnursePatiListAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cprNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "visitType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "listType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "levelId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetOpNursePatiLRListAsync",
+    "RelativePath": "api/OPNurse/GetOpNursePatiLRListAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cprNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "visitType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "listType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "levelId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetPAtientVitals",
+    "RelativePath": "api/OPNurse/GetPAtientVitals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Emrdocid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "GetUserDet",
+    "RelativePath": "api/OPNurse/GetUserDet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "InsertOrUpdateEmrLabTakenAsync",
+    "RelativePath": "api/OPNurse/InsertOrUpdateEmrLabTakenAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emrDocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "eltsId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.Char",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "SaveAudiologyAsync",
+    "RelativePath": "api/OPNurse/SaveAudiologyAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emrDocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "hist",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "SaveOphthalmologyDetails",
+    "RelativePath": "api/OPNurse/SaveOphthalmologyDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "od",
+        "Type": "RemediEmr.Data.Class.OpthalmologyDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "SelectExistingPatientOptholomology",
+    "RelativePath": "api/OPNurse/SelectExistingPatientOptholomology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Emrdocid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.OPNurseController",
+    "Method": "UpdateVitalsStatusAsync",
+    "RelativePath": "api/OPNurse/UpdateVitalsStatusAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Emrdocid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "GetCampPatientAsync",
+    "RelativePath": "api/Patient/GetCampPatientAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "patientTypeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "GetDefaultCampCustAsync",
+    "RelativePath": "api/Patient/GetDefaultCampCustAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "GetDefaultNationalityAsync",
+    "RelativePath": "api/Patient/GetDefaultNationalityAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "GetDefaultPatientTypeAsync",
+    "RelativePath": "api/Patient/GetDefaultPatientTypeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "GetLocationMandatorySettingAsync",
+    "RelativePath": "api/Patient/GetLocationMandatorySettingAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "InsertCampPatientMasterAsync",
+    "RelativePath": "api/Patient/InsertCampPatientMasterAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pt",
+        "Type": "RemediEmr.Data.Class.Patreg",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "LookupCustomerAsync",
+    "RelativePath": "api/Patient/LookupCustomerAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "LookupLocationAsync",
+    "RelativePath": "api/Patient/LookupLocationAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "LookupNationalityAsync",
+    "RelativePath": "api/Patient/LookupNationalityAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "LookupPatientTypeAsync",
+    "RelativePath": "api/Patient/LookupPatientTypeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "LookupSalutationAsync",
+    "RelativePath": "api/Patient/LookupSalutationAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PatientController",
+    "Method": "VerifyMobileNumber",
+    "RelativePath": "api/Patient/VerifyMobileNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mob",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "LoginCheck",
+    "RelativePath": "api/Physio/CheckLogin1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "RemediEmr.Data.Class.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetAllUserBranches",
+    "RelativePath": "api/Physio/GetAllUserBranches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetAppMenuAsync",
+    "RelativePath": "api/Physio/GetAppMenuAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetInitialEvalDetails",
+    "RelativePath": "api/Physio/GetInitialEvalDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetMenuDetails",
+    "RelativePath": "api/Physio/GetMenuDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetPatientDetailsAsync",
+    "RelativePath": "api/Physio/GetPatientDetailsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patiId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pEdocId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "edocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetPatientListDatewiseAsync",
+    "RelativePath": "api/Physio/GetPatientListDatewiseAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sctId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cprNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "visitType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "listType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "levelId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetSectionId",
+    "RelativePath": "api/Physio/GetSectionId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "GetUserDet",
+    "RelativePath": "api/Physio/GetUserDet1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PhysioController",
+    "Method": "SaveInitialEvaluation",
+    "RelativePath": "api/Physio/SaveInitialEvaluation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "b",
+        "Type": "RemediEmr.Data.Class.InitialEvaluation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "ExecuteOnlineDocMediIns",
+    "RelativePath": "api/Prescription/ExecuteOnlineDocMediIns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vt",
+        "Type": "System.Collections.Generic.List\u00601[[RemediEmr.Data.Class.Prescription, RemediEmr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "GetDosagesByEmployeeAsync",
+    "RelativePath": "api/Prescription/GetDosagesByEmployeeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "GetFrequencyByEmployeeAsync",
+    "RelativePath": "api/Prescription/GetFrequencyByEmployeeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "GetMedicinePlan",
+    "RelativePath": "api/Prescription/GetMedicinePlanForPatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emrDocId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "GetOnlineGenericNamesAsync",
+    "RelativePath": "api/Prescription/GetOnlineGenericNamesAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "term",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "claimId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "GetOnlineMedicineAndGeneric",
+    "RelativePath": "api/Prescription/GetOnlineMedicineAndGeneric",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "term",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "branchId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "claimId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.PrescriptionController",
+    "Method": "GetRoutesByEmployeeAsync",
+    "RelativePath": "api/Prescription/GetRoutesByEmployeeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RemediEmr.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RemediEmr.WeatherForecast, RemediEmr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
